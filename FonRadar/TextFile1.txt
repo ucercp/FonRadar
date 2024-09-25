@@ -1,16 +1,17 @@
-Projemizde extra olarak core katmanı kullanılmıştır.
-Bu katman başka projelerde de kullanılabilir,herhangi bir değişikliğe gerek kalmadan
+Projemizde extra olarak core katmanÄ± kullanÄ±lmÄ±ÅŸtÄ±r.
+Bu katman baÅŸka projelerde de kullanÄ±labilir,herhangi bir deÄŸiÅŸikliÄŸe gerek kalmadan
 
-IdentityServer ve FonRadar Docker ile ayağa kaldırılmış PostgreSQL kullanılmıştır.
+IdentityServer ve FonRadar Docker ile ayaÄŸa kaldÄ±rÄ±lmÄ±ÅŸ PostgreSQL kullanÄ±lmÄ±ÅŸtÄ±r.
 
 
-FonRadarIdentityServerDb  port numaraları 8432:5432?
+FonRadarIdentityServerDb  port numaralarÄ± 8432:5432?
 
 fonradarwebapi	postgres:latest	2024-09-22 22:14:57	172.19.0.2	6432:5432
 
 fonradarwebapi-web-1	8001:80
 
-Projeyi Solid prensiplerine dikkat ederek yazmaya çalıştım. Kurumsal firma kısmı eksiktir.
-Alıcı faturaları sisteme yukledikten tedarikçiye bildirim göndermek için tedarikçi vergi numarsına göre tetikleme işlemi yaptım.
+Projeyi Solid prensiplerine dikkat ederek yazmaya Ã§alÄ±ÅŸtÄ±m. Kurumsal firma kÄ±smÄ± eksiktir.
+AlÄ±cÄ± faturalarÄ± sisteme yukledikten tedarikÃ§iye bildirim gÃ¶ndermek iÃ§in tedarikÃ§i vergi numarsÄ±na gÃ¶re tetikleme iÅŸlemi yaptÄ±m.
 
-Register ile sisteme giriş kısmı yaptım ama faturaları webde listele işlemini yetiştiremedim.
+Register ile sisteme giriÅŸ kÄ±smÄ± yaptÄ±m ama faturalarÄ± webde listele iÅŸlemini yetiÅŸtiremedim.
+ Tetikleme iÃ§in mesaj kuyurugu olarak RabbitMQ ,AnlÄ±k bildirim iÃ§in SÄ±ngnalR  kullanmak isterim. Bu yuzden sizden sonra da projeyi geiÅŸtirip tamamlamak benim iÃ§in bir hedeftir.
