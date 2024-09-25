@@ -1,0 +1,14 @@
+C:\Users\recep\source\repos\FonRadar\FonRadar.Core\bin\Debug\net6.0\FonRadar.Core.deps.json
+C:\Users\recep\source\repos\FonRadar\FonRadar.Core\bin\Debug\net6.0\FonRadar.Core.runtimeconfig.json
+C:\Users\recep\source\repos\FonRadar\FonRadar.Core\bin\Debug\net6.0\FonRadar.Core.dll
+C:\Users\recep\source\repos\FonRadar\FonRadar.Core\bin\Debug\net6.0\FonRadar.Core.pdb
+C:\Users\recep\source\repos\FonRadar\FonRadar.Core\obj\Debug\net6.0\FonRadar.Core.csproj.AssemblyReference.cache
+C:\Users\recep\source\repos\FonRadar\FonRadar.Core\obj\Debug\net6.0\FonRadar.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\recep\source\repos\FonRadar\FonRadar.Core\obj\Debug\net6.0\FonRadar.Core.AssemblyInfoInputs.cache
+C:\Users\recep\source\repos\FonRadar\FonRadar.Core\obj\Debug\net6.0\FonRadar.Core.AssemblyInfo.cs
+C:\Users\recep\source\repos\FonRadar\FonRadar.Core\obj\Debug\net6.0\FonRadar.Core.csproj.CoreCompileInputs.cache
+C:\Users\recep\source\repos\FonRadar\FonRadar.Core\obj\Debug\net6.0\FonRadar.Core.dll
+C:\Users\recep\source\repos\FonRadar\FonRadar.Core\obj\Debug\net6.0\refint\FonRadar.Core.dll
+C:\Users\recep\source\repos\FonRadar\FonRadar.Core\obj\Debug\net6.0\FonRadar.Core.pdb
+C:\Users\recep\source\repos\FonRadar\FonRadar.Core\obj\Debug\net6.0\FonRadar.Core.genruntimeconfig.cache
+C:\Users\recep\source\repos\FonRadar\FonRadar.Core\obj\Debug\net6.0\ref\FonRadar.Core.dll

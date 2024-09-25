@@ -1,0 +1,16 @@
+Projemizde extra olarak core katmaný kullanýlmýþtýr.
+Bu katman baþka projelerde de kullanýlabilir,herhangi bir deðiþikliðe gerek kalmadan
+
+IdentityServer ve FonRadar Docker ile ayaða kaldýrýlmýþ PostgreSQL kullanýlmýþtýr.
+
+
+FonRadarIdentityServerDb  port numaralarý 8432:5432?
+
+fonradarwebapi	postgres:latest	2024-09-22 22:14:57	172.19.0.2	6432:5432
+
+fonradarwebapi-web-1	8001:80
+
+Projeyi Solid prensiplerine dikkat ederek yazmaya çalýþtým. Kurumsal firma kýsmý eksiktir.
+Alýcý faturalarý sisteme yukledikten tedarikçiye bildirim göndermek için tedarikçi vergi numarsýna göre tetikleme iþlemi yaptým.
+
+Register ile sisteme giriþ kýsmý yaptým ama faturalarý webde listele iþlemini yetiþtiremedim.

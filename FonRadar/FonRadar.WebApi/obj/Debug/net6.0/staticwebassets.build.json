@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "63VFteUameeuvmszZ7z9SfwdfhFpXdVdh/AWhI0aGQs=",
+  "Source": "FonRadar.WebApi",
+  "BasePath": "_content/FonRadar.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

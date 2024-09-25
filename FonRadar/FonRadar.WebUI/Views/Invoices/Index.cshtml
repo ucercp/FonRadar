@@ -1,0 +1,37 @@
+﻿@model List<FonRadar.WebUI.InvoiceViewModelDto.InvoiceViewModel>
+
+@{
+    Layout = null;
+    int count = 0;
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Fatura No</th>
+            <th>Son Tarih</th>
+            <th>Alıcı Vergi Numarası</th>
+            <th>Tedarikçi Vergi Numarası</th>
+            <th>Fatura Bedeli</th>
+            <th>Durum</th>
+           
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var invoice in Model)
+        {
+            count++;
+            <tr>
+                <td>@invoice.InvoiceNumber</td>
+                <td>@invoice.TermDate.ToString("dd.MM.yyyy")</td>
+                <td>@invoice.BuyerTaxId</td>
+                <td>@invoice.SupplierTaxId</td>
+                <td>@invoice.InvoiceCost</td>
+                <td>@invoice.Status</td>
+                <td>
+                    <a href="@Url.Action( "Invoice", new { id = invoice.InvoiceId })" class="btn btn-info">Erken Ödeme Talebi</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
