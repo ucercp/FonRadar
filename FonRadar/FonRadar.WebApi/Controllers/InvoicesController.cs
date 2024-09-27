@@ -39,7 +39,7 @@ namespace FonRadar.WebApi.Controllers
         {
             
             _invoiceService.AddInvoice(createInvoiceDto);
-            return Ok("Müşteri başarıyla eklendi");
+            return Ok("Fatura başarıyla eklendi");
         }
 
         [HttpDelete("{id}")]
@@ -47,7 +47,7 @@ namespace FonRadar.WebApi.Controllers
         {
             
             _invoiceService.DeleteInvoice(id);
-            return Ok("Müşteri başarıyla silindi"); 
+            return Ok("Fatura başarıyla silindi"); 
         }
 
         [HttpPut]
@@ -55,7 +55,7 @@ namespace FonRadar.WebApi.Controllers
         {
            
             _invoiceService.UpdateInvoice(updateInvoiceDto);
-            return Ok("Müşteri başarıyla güncellendi"); 
+            return Ok("Fatura başarıyla güncellendi"); 
         }
     }
 }
