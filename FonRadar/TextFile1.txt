@@ -11,7 +11,6 @@ fonradarwebapi	postgres:latest	2024-09-22 22:14:57	172.19.0.2	6432:5432
 fonradarwebapi-web-1	8001:80
 
 Projeyi Solid prensiplerine dikkat ederek yazmaya çalıştım. Kurumsal firma kısmı eksiktir.
-Alıcı faturaları sisteme yukledikten tedarikçiye bildirim göndermek için tedarikçi vergi numarsına göre tetikleme işlemi yaptım.
+Alıcı faturaları sisteme yukledikten tedarikçiye bildirim göndermek için tedarikçi vergi numarsına göre tetikleme işlemi yapılmıştır
 
-Register ile sisteme giriş kısmı yaptım ama faturaları webde listele işlemini yetiştiremedim.
- Tetikleme için mesaj kuyurugu olarak RabbitMQ ,Anlık bildirim için SıngnalR  kullanmak isterim. Bu yuzden sizden sonra da projeyi geiştirip tamamlamak benim için bir hedeftir.
+
